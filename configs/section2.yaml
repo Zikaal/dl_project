@@ -1,0 +1,16 @@
+data:
+  dataset: "MNIST"
+  batch_size: 128
+
+model:
+  input_dim: 784
+  hidden_dim: 128
+  num_classes: 10
+  activation: "relu"
+
+train:
+  optimizer: "adam"      
+  lr0: 0.01
+  schedule: "step"       
+  epochs: 12
+  seed: 42
